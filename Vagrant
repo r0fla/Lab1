@@ -1,4 +1,5 @@
-#Simpel vagrant conf using debian. Gets it provision from a script.
+#Simpel vagrant conf using debian. Gets it provision from a script. Vagrant init will create a Vagrantfile in current directory.
+#Run Vagrant up and then vagrant ssh to get in to the vagrant. 
 
 Vagrant.configure("2") do |config|
 	config.vm.box = "debian/bullseye64"
